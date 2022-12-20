@@ -1,5 +1,5 @@
 {
-    "name": "fafnir",
+    "name": "example service",
     "endpoints": [
         {
             "name": "/make-transaction",
