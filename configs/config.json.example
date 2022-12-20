@@ -1,0 +1,24 @@
+{
+    "name": [Type the name of the service to mock],
+    "endpoints": [
+        {
+            "name": [Type the name of the endpoint to mock],
+            "type": [Type the method type of the endpoint],
+            "status_code": [Type the status code to be returned on the endpoint],
+            "response": {
+                [insert here the return message in JSON format]
+            }
+        }, 
+        // example of mocked endpoint
+        {
+            "name": "/get-data",
+            "type": "Get",
+            "status_code": 200,
+            "response": {
+                "name": "teste",
+                "cpf": "123456",
+                "transaction_id": "1122"
+            }
+        },
+    ]
+}
