@@ -5,7 +5,9 @@
             "name": "/make-transaction",
             "type": "Post",
             "status_code": 200,
-            "response": "transaction made successfully"
+            "response": {
+                "message": "transaction made successfully"
+            }
         },
         {
             "name": "/get-data",

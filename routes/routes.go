@@ -14,7 +14,7 @@ import (
 
 func HandleRequest() {
 
-	configJsonFile, err := os.Open("config.json")
+	configJsonFile, err := os.Open("./configs/config.json")
 
 	if err != nil {
 		log.Printf("Error occurred when trying to load json file: [%s]", err)
