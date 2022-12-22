@@ -7,13 +7,13 @@ a tool application that loads an local API with dinamically routed endpoints bas
 
 ### if modifications in the code is made:
 
-1.1 - Be sure to have go version 1.11+ installed.
+1.1 - Be sure to have `go version 1.11+` installed.
 
 1.2 - Run the command bellow to build the project into an executable:
 ```
 go build .
 ```
-2 - Create a `config.json`file into the /configs folder following the example in the `config.json.example` file with the endpoints to be mocked.
+2 - Create a `config.json` file into the /configs folder following the example in the `config.json.example` file with the endpoints to be mocked.
 
 3 - Execute the `runServiceMock.sh` file.
 
